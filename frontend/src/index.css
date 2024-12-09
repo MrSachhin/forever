@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Fira+Sans:wght@500&family=Prata&family=Source+Code+Pro:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 a.active hr{
   display: block;
+}
+*{
+  font-family: outfit;
+}
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
 }
